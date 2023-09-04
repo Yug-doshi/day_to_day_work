@@ -14,7 +14,7 @@ import {
   MenuItem,
 } from "@mui/material";
 
-import "./style.css";
+import "./user.css";
 
 const getData = async () => {
   const data = await fetch("https://dummyjson.com/users").then((data) =>

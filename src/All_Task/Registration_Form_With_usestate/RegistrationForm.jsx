@@ -9,8 +9,8 @@ const StyledCard = styled.div`
   border-radius: 20px;
   padding: 40px;
   width: 40%; /* Adjust the width as needed */
-  height: 200%; /* Adjust the height to fill the entire container */
-  margin: 150px;
+  height: 65%; /* Adjust the height to fill the entire container */
+  margin: 180px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
   transform: scale(1);
 `;
@@ -152,7 +152,7 @@ const RegistrationForm = () => {
         <div className="blur"></div>
         <div className="flex jusitfy-center items-center w-full h-screen p-5">
           <div className="card rounded-3 shadow gap-0">
-            <h3 className="text-center mb-0 pb-2 pb-md-0">Registration Info</h3>
+            <h1 className="text-center mb-0 pb-2 pb-md-0" style={{color:"red",fontSize:"40px"}}>Registration Info</h1>
             <div className="card-body p-5 py-0 p-md-5">
               <div className="mb-2">
                 <label htmlFor="form3Example1q">
@@ -293,12 +293,14 @@ const RegistrationForm = () => {
                   </span>
                 </div>
               </div>
-
+<br/>
+<br/>
               <div className=" flex items-center gap-2 justify-center">
                 <button
                   type="submit"
                   className="btn btn-success btn-lg flex items-center gap-1"
                 >
+            
                   <i className="fas fa-check-circle me-2" /> <span>Submit</span>
                 </button>
               </div>

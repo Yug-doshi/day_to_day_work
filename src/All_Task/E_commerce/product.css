@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins&display=swap');
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e3e9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.inner-wrap {
+  width: 500px;
+  height: 500px;
+  border-radius: 14px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  width: 100%;
+ font-family: 'Poppins', sans-serif;
+  background-color: #af7eeb;
+  padding: 8px;
+  font-size: 1.5rem;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 7px 15px;
+  align-items: center;
+}
+.header h1 {
+  font-weight: 900;
+}
+.myscoller::-webkit-scrollbar {
+  width: 4px;
+}
+.myscoller::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.myscoller::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.container .myclass {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #af7eeb;
+  outline: none;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+.select-option {
+  height: 50px;
+}
+.container {
+  overflow: hidden;
+}
+.text-fade {
+  width: 100%;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-image: linear-gradient(to right, white, rgba(21, 21, 21, 0.259) 300px, transparent 300px);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block; /* Ensure the text is displayed in a single line */
+}
+.image {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 14px;
+}

@@ -1,24 +1,44 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Resume from "./All_Task/Resume/Resume.jsx"
 import Home from "./All_Task/home";
 import RegistrationForm from "./All_Task/Registration_Form_With_usestate/RegistrationForm"
+import User_api from "./All_Task/Fetch_From_Api_using_use_effect/user_api"
+import BusinessCard from "./All_Task/Business_Card/Business_card";
+import Notes from "./All_Task/Firebase_With_React/Component/Notes"
+import E_commerce from "./All_Task/E_commerce/E_commerce";
+
 const router = createBrowserRouter([
   {
-    path:"/",
-    element:<Home/>
+    path: "/",
+    element: <Home />,
   },
   {
-    path:"/resume",
-    element:<Resume/>
+    path: "/resume",
+    element: <Resume />,
   },
   {
-    path:"/registration_form",
-    element:<RegistrationForm/>
+    path: "/registration_form",
+    element: <RegistrationForm />,
+  },
+  {
+    path: "/fetch_user",
+    element: <User_api />,
+  },
+  {
+    path:"/BusinessCard",
+    element:<BusinessCard/>
+  },
+  {
+    path:"/registration",
+    element:<Notes/>
+  },
+  {
+    path:"/E_commerce",
+    element:<E_commerce/>
   }
 ]);
 
